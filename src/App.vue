@@ -1,15 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
+    <project-info />
   </div>
 </template>
 
 <script>
+import ProjectInfo from './components/ProjectInfo.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ProjectInfo
   }
 }
 </script>
