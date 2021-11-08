@@ -1,8 +1,8 @@
-<template>
+  <template>
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <project-info />
-    <global-component />
+    <project-info title="Project Alpha" allocatedEmployeeCount="100" startDate="29-01-2021"/>
+    <!-- <global-component /> -->
   </div>
 </template>
 
