@@ -1,7 +1,7 @@
   <template>
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <project-info title="Project Alpha" allocatedEmployeeCount="100" startDate="29-01-2021"/>
+    <project-info :title="title" :allocatedEmployeeCount="allocatedEmployeeCount" :startDate="startDate"/>
     <!-- <global-component /> -->
   </div>
 </template>
@@ -13,6 +13,13 @@ export default {
   name: 'App',
   components: {
     ProjectInfo
+  },
+  data(){
+    return{
+      title:'Project Alpha',
+      allocatedEmployeeCount:'100',
+      startDate:"29-01-2021"
+    }
   }
 }
 </script>
